@@ -6,6 +6,7 @@ for i in range(group_num):
 for j in [v0, v1, v2, v3]:
     for m in range(0, (len(j)*len(j)-1)-1):
         upside_down_str = j[a:b]
+        a += 1
     if n[::-1] == n:
         print('Yes')
     else:
